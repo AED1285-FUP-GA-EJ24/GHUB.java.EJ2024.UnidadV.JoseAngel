@@ -1,3 +1,4 @@
 ./miTest/AppTest.java
 ./miPrincipal/Principal.java
+./metodoBur/MetodoBur.java
 ./calcularSalario2/CalcularSalario2.java

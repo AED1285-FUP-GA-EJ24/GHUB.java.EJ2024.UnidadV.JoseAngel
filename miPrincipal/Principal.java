@@ -1,6 +1,7 @@
 package miPrincipal;
 
 import calcularSalario2.CalcularSalario2;
+import metodoBur.MetodoBur;
 
 import java.util.Scanner;
 public class Principal {
@@ -13,7 +14,7 @@ public class Principal {
             System.out.println("*      MENU DE OPCIONES UNIDAD V     *");
             System.out.println("**************************************");
             System.out.println("* 1) Calcular Salario                *"); 
-            System.out.println("* 2)                                 *"); 
+            System.out.println("* 2) Metodo Burbuja                  *"); 
             
 
             
@@ -27,7 +28,7 @@ public class Principal {
                  CalcularSalario2.calcularSalario2();
                    break;
                 case 2:
-                 
+                 MetodoBur.metodoBur();
                   break;
                
                 case 99:
