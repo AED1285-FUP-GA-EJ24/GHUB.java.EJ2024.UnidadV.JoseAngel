@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class MetodoBur{
     public static void metodoBur(){
         int[] numeros = new int[10];
-        
+        int n = numeros.length;
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese 10 números entre 1 y 100:");
         for (int i = 0; i < 10; i++) {
@@ -21,7 +21,7 @@ public class MetodoBur{
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i] + " ");
         }
-        int n = numeros.length;
+        n = numeros.length;
         for (int i = 0; i < n-1; i++) {
             for (int j = 0; j < n-i-1; j++) {
                 if (numeros[j] < numeros[j+1]) {
